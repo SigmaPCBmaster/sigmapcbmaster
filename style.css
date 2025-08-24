@@ -1,0 +1,146 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+}
+header {
+  background-color: #202020;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ff88;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #00ff88;
+}
+nav {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+nav a {
+  color: #00ffaa;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  color: #00ff88;
+}
+footer {
+  background-color: #101010;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+}
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.module-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 15px;
+  flex: 1 1 800px;
+  border-radius: 6px;
+  max-width: 500px;
+}
+.module-card h3 {
+  margin-top: 10px;
+  color: #00ffaa;
+}
+.module-card ul {
+  padding-left: 20px;
+}
+.module-img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+.img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 0px solid #444;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px auto;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+}
+.shop-button {
+  display: inline-block !important;
+  margin: 10px auto 0 auto;      /* Margine top + centratura orizzontale */
+  padding: 8px 15px;
+  background-color: #00ffaa;
+  color: 000;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  font-family: "Font Awesome 6 Brands" !important;
+}
+
+.shop-button:hover {
+  background-color: #00ddaa;
+  color: #000;
+}
+.shop-button[disabled] {
+  background-color: #cccccc;
+  color: #666;
+  cursor: not-allowed;
+  border: 1px solid #999;
+}
+
+input.shop-button[disabled] {
+  background-color: #ccc !important;
+  color: #666 !important;
+  border: 1px solid #aaa !important;
+  cursor: not-allowed !important;
+  opacity: 1 !important;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+th {
+  background-color: #2a2a2a;
+  color: #00ffaa;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+Aggiornato stile CSS con supporto immagini moduli

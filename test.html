@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Icona PayPal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="andreapay1985@outlook.it" />
+    <input type="hidden" name="item_name" value="Power Logic Kit" />
+    <input type="hidden" name="amount" value="150.00" />
+    <input type="hidden" name="currency_code" value="EUR" />
+    <button>
+      <i class="fab fa-paypal" style="margin-right: 5px;"></i> Acquista con PayPal
+    </button>
+  </form>
+</body>
+</html>
