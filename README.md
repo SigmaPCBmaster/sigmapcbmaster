@@ -35,12 +35,12 @@ Progettato per offrire **massima affidabilità e protezione attiva**, Power Logi
 
 ## 📄 Documentazione
 👉 Scheda Tecnica e di collaudo(incompleta) disponibile qui:  
-[📥 Scarica PDF di collaudo](https://sigmapcbmaster.github.io/powerlogic/Schede_Collaudo_PL.pdf)
+[📥 Scarica PDF di collaudo](https://sigmapcbmaster.github.io/Schede_Collaudo_PL.pdf)
 
 ---
 
 ## 🌐 Sito ufficiale
-[🔗 https://sigmapcbmaster.github.io/powerlogic](https://sigmapcbmaster.github.io/powerlogic)
+[🔗 https://sigmapcbmaster.github.io/powerlogic](https://sigmapcbmaster.github.io/)
 
 ---
 
